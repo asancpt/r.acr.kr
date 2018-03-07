@@ -5,5 +5,5 @@
 ```r
 install.packages('ShotgunFunctionalizeR', repos='http://pmx.amc.seoul.kr')
 install.packages('rtf', repos='http://pmx.amc.seoul.kr')
+install.packages('wnl', repos='http://pmx.amc.seoul.kr')
 ```
-
