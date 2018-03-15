@@ -1,6 +1,16 @@
 # pmx: Pharmacometrics-dedicated R repos
 
-`pmx.amc.seoul.kr`에 올리는 패키지입니다.
+서울아산병원 임상약리학과 `pmx.amc.seoul.kr`에 올라온 R 패키지입니다.
+CRAN에 올리기 전 시험판이나 기존 패키지의 fork를 올리고 있습니다.
+
+패키지명|설명
+---|---
+ShotgunFunctionalizeR|
+rtf|
+wnl|<https://github.com/cran/wnl>
+NonCompart|<https://github.com/cran/NonCompart>
+
+## 설치법
 
 ```r
 install.packages('ShotgunFunctionalizeR', repos='http://pmx.amc.seoul.kr')
