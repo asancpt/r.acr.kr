@@ -1,33 +1,37 @@
 
 # pmx: Pharmacometrics-dedicated R repos
 
-서울아산병원 임상약리학과 `pmx.amc.seoul.kr`에 올라온 R 패키지입니다. CRAN에 올리기 전 시험판이나 기존
-패키지의 fork를 올리고
-있습니다.
-
-| 패키지명                                                  | 설명                                   |
-| ----------------------------------------------------- | ------------------------------------ |
-| NonCompart (Bae 2018a)                                | <https://github.com/cran/NonCompart> |
-| wnl (Bae 2018b)                                       | <https://github.com/cran/wnl>        |
-| rtf (Schaffer 2013)                                   |                                      |
-| ShotgunFunctionalizeR (Kristiansson and Dalevi. 2018) |                                      |
-
 [<img src="https://shanmdphd.github.io/hex/NonCompart.png" height="120"/>](https://github.com/asancpt/NonCompart)
+
+서울아산병원 임상약리학과 `pmx.amc.seoul.kr`에 올라온 R 패키지입니다. 본 기관에서 개발한 패키지의 CRAN에 공개
+전 시험판을 주로 올리고 있습니다. 또한 기존 패키지를 용도에 맞게 변형한 fork를 올리고 있습니다.
+
+| 패키지명                  | 저자                              | 분류    |
+| --------------------- | ------------------------------- | ----- |
+| nmw                   | (Bae 2017)                      | 자체 개발 |
+| NonCompart            | (Bae 2018a)                     | 자체 개발 |
+| rtf                   | (Schaffer 2013)                 | fork  |
+| ShotgunFunctionalizeR | (Kristiansson and Dalevi. 2018) | fork  |
+| wnl                   | (Bae 2018b)                     | 자제 개발 |
+
+(알파벳 순 정렬)
 
 ## 설치법, 불러오기
 
 ### R 패키지
 
 ``` r
+install.packages('nmw', repos='http://pmx.amc.seoul.kr')
 install.packages("NonCompart", repos="http://pmx.amc.seoul.kr")
-install.packages('wnl', repos='http://pmx.amc.seoul.kr')
 install.packages('rtf', repos='http://pmx.amc.seoul.kr')
+install.packages('wnl', repos='http://pmx.amc.seoul.kr')
 ```
 
 ``` r
+library(nmw)
 library(NonCompart)
-library(wnl)
 library(rtf)
+library(wnl)
 ```
 
 ### Bioconductor 의존 패키지
@@ -49,10 +53,18 @@ library(ShotgunFunctionalizeR)
 
 <div id="refs" class="references">
 
+<div id="ref-R-nmw">
+
+Bae, Kyun-Seop. 2017. *Nmw: Understanding Nonlinear Mixed Effects
+Modeling for Population Pharmacokinetics*.
+<https://cran.r-project.org/package=nmw>.
+
+</div>
+
 <div id="ref-R-NonCompart">
 
-Bae, Kyun-Seop. 2018a. *NonCompart: Noncompartmental Analysis for
-Pharmacokinetic Data*. <https://CRAN.R-project.org/package=NonCompart>.
+———. 2018a. *NonCompart: Noncompartmental Analysis for Pharmacokinetic
+Data*. <https://CRAN.R-project.org/package=NonCompart>.
 
 </div>
 
