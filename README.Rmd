@@ -34,6 +34,7 @@ install.packages('nmw', repos='http://pmx.amc.seoul.kr')
 install.packages("NonCompart", repos="http://pmx.amc.seoul.kr")
 install.packages('rtf', repos='http://pmx.amc.seoul.kr')
 install.packages('wnl', repos='http://pmx.amc.seoul.kr')
+install.packages('CNVineta', repos='http://pmx.amc.seoul.kr')
 ```
 
 ```{r}
