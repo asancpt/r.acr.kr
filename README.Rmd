@@ -1,61 +1,64 @@
 ---
+title: "r.acr.kr: AMC CPT R repos"
 bibliography: "packages.bib"
+header-includes:
+  - \usepackage{kotex}
+mainfont: NanumGothic
+output:
+  pdf_document:
+    latex_engine: xelatex
 ---
 
 ```{r setup, include = FALSE}
 knitr::opts_chunk$set(message = FALSE, warning = FALSE)
 ```
 
-# pmx: Pharmacometrics-dedicated R repos
 
 [<img src="https://shanmdphd.github.io/hex/NonCompart.png" height="120"/>](https://github.com/asancpt/NonCompart)
 
-서울아산병원 임상약리학과 `pmx.amc.seoul.kr`에 올라온 R 패키지입니다.
-본 기관에서 개발한 패키지의 CRAN에 공개 전 시험판을 주로 올리고 있습니다.
+서울아산병원 임상약리학과에서 운영하는 [`http://r.acr.kr`](http://r.acr.kr)는 R 패키지 리포입니다.
+CRAN에 공개하기 전, 본 기관에서 개발한 패키지의 개발 버전이 올라옵니다. 
+[@R-NonCompart;@R-ncar;@R-pkr;@R-nmw;@R-wnl;@R-BE]
 또한 기존 패키지를 용도에 맞게 변형한 fork를 올리고 있습니다.
-
-|패키지명|저자|분류|
-|---|---|---|
-|nmw | [@R-nmw]| 자체 개발|
-|NonCompart | [@R-NonCompart]| 자체 개발|
-|rtf | [@R-rtf]| fork|
-|ShotgunFunctionalizeR | [@R-ShotgunFunctionalizeR]| fork|
-|wnl | [@R-wnl]| 자제 개발
-
-(알파벳 순 정렬)
-
 
 ## 설치법, 불러오기
 
 ### R 패키지
 
-```r
-install.packages('nmw', repos='http://pmx.amc.seoul.kr')
-install.packages("NonCompart", repos="http://pmx.amc.seoul.kr")
-install.packages('rtf', repos='http://pmx.amc.seoul.kr')
-install.packages('wnl', repos='http://pmx.amc.seoul.kr')
-install.packages('CNVineta', repos='http://pmx.amc.seoul.kr')
+```{r, eval = FALSE}
+install.packages("NonCompart", repos="http://r.acr.kr")
+install.packages("ncar", repos="http://r.acr.kr")
+install.packages("pkr", repos="http://r.acr.kr")
+install.packages('nmw', repos='http://r.acr.kr')
+install.packages('wnl', repos='http://r.acr.kr')
+install.packages('BE', repos='http://r.acr.kr')
 ```
 
 ```{r}
-library(nmw)
 library(NonCompart)
-library(rtf)
+library(ncar)
+library(pkr)
+library(nmw)
 library(wnl)
+library(BE)
 ```
 
-### Bioconductor 의존 패키지
+## 전체 패키지 리스트 (`r Sys.Date()`)
 
-`ShotgunFunctionalizeR` 패키지를 설치하려면 먼저 Bioconductor에서 `multtest`를 먼저 설치해야 합니다.
-
-```r
-source("https://bioconductor.org/biocLite.R")
-biocLite("multtest")
-install.packages('ShotgunFunctionalizeR', repos='http://pmx.amc.seoul.kr')
-```
-
-```{r}
-library(ShotgunFunctionalizeR)
+```{r echo = FALSE, results = 'asis'}
+library(tidyverse)
+readr::read_delim('http://r.acr.kr', skip = 2, col_names = FALSE, delim = ':  ') %>% 
+  set_names(c('param', 'value')) %>% 
+  mutate_at(vars(param, value), funs(trimws)) %>% 
+  mutate(group = ifelse(param == 'Package', 1, 0)) %>% 
+  mutate(group = cumsum(group)) %>% 
+  group_by(group) %>% 
+  mutate(package = first(value)) %>% 
+  filter(param != 'Package') %>% 
+  filter(!is.na(value)) %>% 
+  spread(param, value) %>% 
+  select(group, package, Version) %>%
+  knitr::kable()
 ```
 
 ## 참고문헌
