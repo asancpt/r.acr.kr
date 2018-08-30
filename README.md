@@ -3,6 +3,8 @@ r.acr.kr: AMC CPT R repos
 
 
 
+2018-08-30
+
 [<img src="https://shanmdphd.github.io/hex/NonCompart.png" height="120"/>](https://github.com/asancpt/NonCompart)
 
 서울아산병원 임상약리학과에서 운영하는 <http://r.acr.kr>는 R 패키지 리포입니다. CRAN에 공개하기 전, 본
@@ -31,7 +33,7 @@ library(wnl)
 library(BE)
 ```
 
-## 전체 패키지 리스트 (2018-08-08)
+## 전체 패키지 리스트 (2018-08-30)
 
 | group | package     | Version  |
 | ----: | :---------- | :------- |

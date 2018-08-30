@@ -13,6 +13,7 @@ output:
 knitr::opts_chunk$set(message = FALSE, warning = FALSE)
 ```
 
+`r Sys.Date()`
 
 [<img src="https://shanmdphd.github.io/hex/NonCompart.png" height="120"/>](https://github.com/asancpt/NonCompart)
 
