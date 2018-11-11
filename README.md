@@ -3,12 +3,12 @@ r.acr.kr: AMC CPT R repos
 
 
 
-2018-08-30
+2018-11-12
 
 [<img src="https://shanmdphd.github.io/hex/NonCompart.png" height="120"/>](https://github.com/asancpt/NonCompart)
 
-서울아산병원 임상약리학과에서 운영하는 <http://r.acr.kr>는 R 패키지 리포입니다. CRAN에 공개하기 전, 본
-기관에서 개발한 패키지의 개발 버전이 올라옵니다. (Bae 2018d, 2018b, 2018c, 2018e,
+서울아산병원 임상약리학과에서 운영하는 <http://r.acr.kr>는 R 패키지 리포(repo) 입니다. CRAN에 공개하기
+전, 본 기관에서 개발한 패키지의 개발 버전이 올라옵니다. (Bae 2018d, 2018b, 2018c, 2018e,
 2018a; Bae and Lee 2018) 또한 기존 패키지를 용도에 맞게 변형한 fork를 올리고 있습니다.
 
 ## 설치법, 불러오기
@@ -19,9 +19,9 @@ r.acr.kr: AMC CPT R repos
 install.packages("NonCompart", repos="http://r.acr.kr")
 install.packages("ncar", repos="http://r.acr.kr")
 install.packages("pkr", repos="http://r.acr.kr")
-install.packages('nmw', repos='http://r.acr.kr')
-install.packages('wnl', repos='http://r.acr.kr')
-install.packages('BE', repos='http://r.acr.kr')
+install.packages("nmw", repos="http://r.acr.kr")
+install.packages("wnl", repos="http://r.acr.kr")
+install.packages("BE", repos="http://r.acr.kr")
 ```
 
 ``` r
@@ -33,7 +33,15 @@ library(wnl)
 library(BE)
 ```
 
-## 전체 패키지 리스트 (2018-08-30)
+## 다운로드 하기
+
+``` bash
+wget http://r.acr.kr/bin/windows/contrib/3.5/NonCompart_0.4.4.zip
+```
+
+`NonCompart_0.4.4.zip`을 다른 패키지이름\_버전으로 바꾸면 다른 패키지도 다운로드 할 수 있습니다.
+
+## 전체 패키지 리스트 (2018-11-12)
 
 | group | package     | Version  |
 | ----: | :---------- | :------- |
@@ -51,7 +59,7 @@ library(BE)
 |    12 | R.methodsS3 | 1.7.1    |
 |    13 | R.oo        | 1.22.0   |
 |    14 | rtf         | 0.4-11   |
-|    15 | wnl         | 0.4.1    |
+|    15 | wnl         | 0.4.2    |
 
 ## 참고문헌
 

@@ -17,7 +17,7 @@ knitr::opts_chunk$set(message = FALSE, warning = FALSE)
 
 [<img src="https://shanmdphd.github.io/hex/NonCompart.png" height="120"/>](https://github.com/asancpt/NonCompart)
 
-서울아산병원 임상약리학과에서 운영하는 [`http://r.acr.kr`](http://r.acr.kr)는 R 패키지 리포입니다.
+서울아산병원 임상약리학과에서 운영하는 [`http://r.acr.kr`](http://r.acr.kr)는 R 패키지 리포(repo) 입니다.
 CRAN에 공개하기 전, 본 기관에서 개발한 패키지의 개발 버전이 올라옵니다. 
 [@R-NonCompart;@R-ncar;@R-pkr;@R-nmw;@R-wnl;@R-BE]
 또한 기존 패키지를 용도에 맞게 변형한 fork를 올리고 있습니다.
@@ -30,9 +30,9 @@ CRAN에 공개하기 전, 본 기관에서 개발한 패키지의 개발 버전�
 install.packages("NonCompart", repos="http://r.acr.kr")
 install.packages("ncar", repos="http://r.acr.kr")
 install.packages("pkr", repos="http://r.acr.kr")
-install.packages('nmw', repos='http://r.acr.kr')
-install.packages('wnl', repos='http://r.acr.kr')
-install.packages('BE', repos='http://r.acr.kr')
+install.packages("nmw", repos="http://r.acr.kr")
+install.packages("wnl", repos="http://r.acr.kr")
+install.packages("BE", repos="http://r.acr.kr")
 ```
 
 ```{r}
@@ -43,6 +43,14 @@ library(nmw)
 library(wnl)
 library(BE)
 ```
+
+## 다운로드 하기
+
+```bash
+wget http://r.acr.kr/bin/windows/contrib/3.5/NonCompart_0.4.4.zip
+```
+
+`NonCompart_0.4.4.zip`을 다른 패키지이름\_버전으로 바꾸면 다른 패키지도 다운로드 할 수 있습니다.
 
 ## 전체 패키지 리스트 (`r Sys.Date()`)
 
