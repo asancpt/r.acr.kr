@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.5.26)  27 MAY 2020 13:23
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.5.26)  27 MAY 2020 13:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1364,75 +1364,80 @@ Package microtype Info: Character `\quotedblbase ' is missing
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `TU/NanumGothic(0)/m/up' will be
 (Font)              scaled to size 6.0pt on input line 116.
+LaTeX Font Info:    Font shape `TU/NanumGothic(0)/m/n' will be
+(Font)              scaled to size 14.4pt on input line 120.
+LaTeX Font Info:    Font shape `TU/NanumGothic(0)/b/n' will be
+(Font)              scaled to size 14.4pt on input line 120.
 
-Package hyperref Warning: Suppressing empty link on input line 119.
+Package hyperref Warning: Suppressing empty link on input line 122.
 
 LaTeX Font Info:    Font shape `TU/NanumGothic(0)/b/n' will be
-(Font)              scaled to size 12.0pt on input line 129.
+(Font)              scaled to size 12.0pt on input line 132.
 LaTeX Font Info:    Font shape `TU/NanumGothic(0)/b/n' will be
-(Font)              scaled to size 10.0pt on input line 132.
+(Font)              scaled to size 10.0pt on input line 135.
 LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <10> not available
-(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 136.
-
-LaTeX Font Warning: Font shape `TU/NanumGothic(0)/m/it' undefined
-(Font)              using `TU/NanumGothic(0)/m/n' instead on input line 183.
-
-LaTeX Font Info:    Font shape `TU/NanumGothic(0)/m/it' will be
-(Font)              scaled to size 10.0pt on input line 183.
-Package microtype Info: Character `\quotesinglbase ' is missing
-(microtype)             in font `\TU/NanumGothic(0)/m/it/10'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `\quotedblbase ' is missing
-(microtype)             in font `\TU/NanumGothic(0)/m/it/10'.
-(microtype)             Ignoring protrusion settings for this character.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 8.12067pt on input line 184.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 5.80048pt on input line 184.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 11.60202pt on input line 184.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 8.12141pt on input line 184.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 5.80101pt on input line 184.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 11.59973pt on input line 184.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 8.11981pt on input line 184.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 5.79987pt on input line 184.
-LaTeX Font Info:    Font shape `TU/NanumGothic(0)/m/up' will be
-(Font)              scaled to size 10.0pt on input line 184.
-Package microtype Info: Character `\quotesinglbase ' is missing
-(microtype)             in font `\TU/NanumGothic(0)/m/up/10'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `\quotedblbase ' is missing
-(microtype)             in font `\TU/NanumGothic(0)/m/up/10'.
-(microtype)             Ignoring protrusion settings for this character.
-LaTeX Font Info:    Font shape `TU/NanumGothic(0)/m/up' will be
-(Font)              scaled to size 7.0pt on input line 184.
-LaTeX Font Info:    Font shape `TU/NanumGothic(0)/m/up' will be
-(Font)              scaled to size 5.0pt on input line 184.
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 139.
 [1
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 214.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 8.12067pt on input line 229.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 5.80048pt on input line 229.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 11.60202pt on input line 229.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 8.12141pt on input line 229.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 5.80101pt on input line 229.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 11.59973pt on input line 229.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 8.11981pt on input line 229.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 5.79987pt on input line 229.
+LaTeX Font Info:    Font shape `TU/NanumGothic(0)/m/up' will be
+(Font)              scaled to size 10.0pt on input line 229.
+Package microtype Info: Character `\quotesinglbase ' is missing
+(microtype)             in font `\TU/NanumGothic(0)/m/up/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\quotedblbase ' is missing
+(microtype)             in font `\TU/NanumGothic(0)/m/up/10'.
+(microtype)             Ignoring protrusion settings for this character.
+LaTeX Font Info:    Font shape `TU/NanumGothic(0)/m/up' will be
+(Font)              scaled to size 7.0pt on input line 229.
+LaTeX Font Info:    Font shape `TU/NanumGothic(0)/m/up' will be
+(Font)              scaled to size 5.0pt on input line 229.
+
+LaTeX Font Warning: Font shape `TU/NanumGothic(0)/m/it' undefined
+(Font)              using `TU/NanumGothic(0)/m/n' instead on input line 271.
+
+LaTeX Font Info:    Font shape `TU/NanumGothic(0)/m/it' will be
+(Font)              scaled to size 10.0pt on input line 271.
+Package microtype Info: Character `\quotesinglbase ' is missing
+(microtype)             in font `\TU/NanumGothic(0)/m/it/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `\quotedblbase ' is missing
+(microtype)             in font `\TU/NanumGothic(0)/m/it/10'.
+(microtype)             Ignoring protrusion settings for this character.
 [2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 214.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 302.
+[3]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 302.
 (./README.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 214.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 214.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 302.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 302.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 21915 strings out of 479282
- 362006 string characters out of 5884016
- 794657 words of memory out of 5000000
- 39272 multiletter control sequences out of 15000+600000
- 538885 words of font info for 89 fonts, out of 8000000 for 9000
+ 21939 strings out of 479282
+ 362420 string characters out of 5884016
+ 792986 words of memory out of 5000000
+ 39294 multiletter control sequences out of 15000+600000
+ 538901 words of font info for 91 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 59i,6n,125p,805b,2585s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 59i,5n,125p,805b,2585s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on README.pdf (2 pages).
+Output written on README.pdf (3 pages).
